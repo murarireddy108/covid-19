@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&family=IBM+Plex+Sans:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/bb3d8767b1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Covid-19-Tracker</title>
+</head>
+<body>
+  
+  <section>
+    <div class="my-5 text-center">
+     
+      <h1><i class="fas fa-head-side-mask"></i>  <span>Covid-19</span>  Virus Live Update 
+        <i class="fas fa-viruses Virus"></i></h1>
+    </div>
+    <div class="row my-4">
+      <div class="col-md-6 img-section">
+        <!-- <img src="./img-2.jpg" alt=""> -->
+      </div>
+      <div class="col-md-6 mt-3 bar-section">
+        <div class="bar">
+          <p class="mx-2 Global"></p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+          </div>
+        </div>
+        <div class="bar">
+          <p class="mx-4 US"></p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+          </div>
+        </div>
+        <div class="bar">
+          <p class="mx-4 Uk"></p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+          </div>
+        </div>
+        <div class="bar">
+          <p class="mx-3 India"></p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+          </div>
+        </div>
+        <div class="bar">
+          <p class="mx-2 Canada"></p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
+          </div>
+        </div>
+        <div class="bar">
+          <p class="mx-3 China"></p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">35%</div>
+          </div>
+        </div>
+        <div class="bar">
+          <p class="mx-2 Australia"></p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    
+    <div class="table-content my-5">
+      <table class="table table-dark table-hover table-striped table-responsive-lg">
+        <thead>
+          <tr>
+            <th scope="col">Countries</th>
+            <th scope="col">Total confirmed</th>
+            <th scope="col">Total Deaths</th>
+            <th scope="col">Total Recoverd</th>
+            <th scope="col">New Confirmed</th>
+            <th scope="col">New Death</th>
+            <th scope="col">New Recoverd</th>
+            <th scope="col">Last Updated</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Global</th>
+            <td class="TotalConfirmed-g"></td>
+            <td class="TotalDeaths-g"></td>
+            <td class="TotalRecovered-g"></td>
+            <td class="NewConfirmed-g"></td>
+            <td class="NewDeath-g"></td>
+            <td class="NewRecovered-g"></td>
+            <td class="LastUpdated-g"></td>
+          </tr>
+          <tr>
+            <th scope="row">India</th>
+            <td class="TotalConfirmed-i"></td>
+            <td class="TotalDeaths-i"></td>
+            <td class="TotalRecovered-i"></td>
+            <td class="NewConfirmed-i"></td>
+            <td class="NewDeath-i"></td>
+            <td class="NewRecovered-i"></td>
+            <td class="LastUpdated-i"></td>
+          </tr>
+          <tr>
+            <th scope="row">US</th>
+            <td class="TotalConfirmed-us"></td>
+            <td class="TotalDeaths-us"></td>
+            <td class="TotalRecovered-us"></td>
+            <td class="NewConfirmed-us"></td>
+            <td class="NewDeath-us"></td>
+            <td class="NewRecovered-us"></td>
+            <td class="LastUpdated-us"></td>
+          </tr>
+          <tr>
+            <th scope="row">Uk</th>
+            <td class="TotalConfirmed-uk"></td>
+            <td class="TotalDeaths-uk"></td>
+            <td class="TotalRecovered-uk"></td>
+            <td class="NewConfirmed-uk"></td>
+            <td class="NewDeath-uk"></td>
+            <td class="NewRecovered-uk"></td>
+            <td class="LastUpdated-uk"></td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- <button class="btn btn-warning">refresh</button> -->
+    </div>
+   
+  </section>
+
+
+  <script src="./script.js"></script>
+</body>
+</html>
